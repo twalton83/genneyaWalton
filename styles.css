@@ -40,7 +40,7 @@ height: auto;
     width: 5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 2px solid  #9a7c00
+    border-bottom: 2px solid  #cfab35
 }
 
 .scrolledNav {
@@ -73,7 +73,7 @@ height: auto;
     align-items: center;
     justify-content: space-between;
     color: #9a7c00;
-    border-bottom: .5px solid #cfab35;
+    border-bottom: .5px solid #9a7c00;
     position: fixed;
     width: 100%;
     top:0;
@@ -108,6 +108,11 @@ height: 10vh;
 display: flex;
 align-items: center;
 justify-content: center;
+
+}
+
+.dropdown-menu {
+    background-color: white;
 }
 
 .nav-item .nav-link:hover{
@@ -138,6 +143,10 @@ footer a {
     color: #9a7c00
 }
 
+.representation {
+    height: 80vh;
+}
+
 .representation div {
     display: flex;
     flex-direction: column;
@@ -146,7 +155,7 @@ footer a {
 }
 
 .representation h2 {
-    font-size: 1rem
+    font-size: 1.5rem;
 }
 
 .ig-container {
@@ -154,11 +163,23 @@ footer a {
     width: 20vw;
 }
 
+.socialMediaH1{
+height: 20px !important;
+}
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
 
 @media (max-width: 768px) {
     .carousel-item{
         height: 45vh
+    }
+
+    .nav-item .nav-link{
+        width: 100vw;
+        background-color: black;
     }
 
 }
